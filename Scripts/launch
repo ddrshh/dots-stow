@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# Set the file name as the first argument
+file="$1"
+if [ $file ];then
+  # Get the mimetype of the file
+  mimetype="$(file -b --mime-type "$file")"
+  # Launch the file based on the mimetype
+  case "$mimetype" in
+    "text/"*)                   # plain text file
+      echo -e "\033[1mOpened: \033[34m\033[30;44m\033[1m$file\033[30;m\033[34m"
+      nvim "$file"
+      ;;
+    "image/"* | "inode/directory")
+      echo -e "\033[1mOpened: \033[34m\033[30;44m\033[1m$file\033[30;m\033[34m"
+      imv -s crop "$file"
+      ;;
+    "video/"* | "audio/"*)   # multimedia file
+      echo -e "\033[1mOpened: \033[34m\033[30;44m\033[1m$file\033[30;m\033[34m"
+      mpv "$file" || vlc "$file" & 
+      ;;
+    "application/pdf")              # PDF file
+      echo -e "\033[1mOpened: \033[34m\033[30;44m\033[1m$file\033[30;m\033[34m"
+      zathura "$file" &
+      ;;
+    "application/msword" | "application/vnd.openxmlformats-officedocument.wordprocessingml.document" | "application/vnd.ms-excel" | "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" | "application/vnd.ms-powerpoint" | "application/vnd.openxmlformats-officedocument.presentationml.presentation") # PowerPoint presentation
+      echo -e "\033[1mOpened: \033[34m\033[30;44m\033[1m$file\033[30;m\033[34m"
+      libreoffice "./$file"
+      ;;
+    *)                              # unknown file type
+      xdg-open "$file"
+      echo -e "\033[1mCould Not Open: \033[31m\033[30;41m\033[1mUnknown File Type\033[31;m\033[31m"
+      ;;
+  esac
+fi
