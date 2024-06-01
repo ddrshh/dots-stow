@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "f42dde7d757592b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "f208f352a0da05bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d6d486737c2c09a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tutorials/Rust/Rust Programming Language - docs.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d60c673f240ffbaa",
+    "type": "split",
+    "children": [
+      {
+        "id": "f25818539a06e397",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3dc9b173e0379ab2",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "4af7c7e9617e986b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "7afb2d9a2f8e5f0e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7c2d807165976874",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "910427898d56052d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "0f3b8a2365e1d832",
+    "type": "split",
+    "children": [
+      {
+        "id": "d736d36dc30836c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "888174eaf7881212",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tutorials/Rust/Rust Programming Language - docs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "292a673d8a503a1d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tutorials/Rust/Rust Programming Language - docs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a9bda964106ff10f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "02bf6e992b065b86",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tutorials/Rust/Rust Programming Language - docs.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": true,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
+    }
+  },
+  "active": "4d6d486737c2c09a",
+  "lastOpenFiles": [
+    "Tutorials/Rust/Rust Programming Language - docs.md",
+    "Tutorials/Rust",
+    "Todos/Todo.md",
+    "Ideas/Ideas.md",
+    "Ideas",
+    "Tutorials/React/4. useState.md",
+    "Todos",
+    "Tutorials/React/3. Lists with React.md",
+    "Tutorials/React/2. Props.md",
+    "Tutorials/React/1. Introduction.md",
+    "Outline.md",
+    "3..md",
+    "Tutorials/React/3..md",
+    "\"Tutorials/React/3..md",
+    "\"Tutorials/React",
+    "\"Tutorials",
+    "\"./3..md",
+    "\".",
+    "Tutorials/Latex.md",
+    "Tutorials/React",
+    "Tutorials",
+    "Tutorials/Numpy.md",
+    "Outline For ML.md",
+    "Proposal/proposal.tex.md",
+    "Proposal/proposal.md",
+    "Untitled.md",
+    "Proposal",
+    "Tutorials/TensorFlow.md",
+    "2024-05-22.md",
+    "test.js",
+    "node_modules/ml-regression-exponential/node_modules/ml-regression-simple-linear/node_modules/ml-regression-base/README.md",
+    "node_modules/ml-regression-exponential/node_modules/ml-regression-simple-linear/README.md",
+    "node_modules/ml-regression-exponential/node_modules/ml-regression-base/README.md",
+    "node_modules/ml-regression-theil-sen/README.md",
+    "node_modules/ml-regression-theil-sen/History.md",
+    "node_modules/ml-regression-simple-linear/README.md",
+    "Untitled.canvas"
+  ]
+}

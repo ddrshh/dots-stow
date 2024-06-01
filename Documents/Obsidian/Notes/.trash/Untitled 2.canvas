@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"cff5d1e479bf031e","type":"text","text":"","x":-111,"y":127,"width":250,"height":60},
+		{"id":"449b7f484a6cc228","type":"text","text":"Copy paste YOLO v9 code","x":-206,"y":-15,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"fb229457ee2b95c4","fromNode":"cff5d1e479bf031e","fromSide":"top","toNode":"449b7f484a6cc228","toSide":"bottom"}
+	]
+}
